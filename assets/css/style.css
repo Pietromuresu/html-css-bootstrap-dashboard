@@ -18,6 +18,10 @@
   --bs-green: #1A8754;
 }
 
+ a {
+  color: white ;
+  text-decoration: none;
+}
 /* /GENERAL */
 
 /* header */
@@ -50,4 +54,31 @@ input::placeholder{
  height: 30px;
 
 }
-/* /header *
+/* /header */
+
+
+/* Body */
+
+.pm-side-menu{
+  width: 150px;
+}
+
+.pm-side-small-menu {
+  width: 70px;
+}
+.pm-side-menu,
+.pm-side-small-menu
+{
+  height: calc(100vh - 80px);
+  
+  background-image: url(../img/sidebar-bg.png);
+  background-color: #041E34;
+}
+
+.pm-side-top {
+  height: 95% ;
+}
+
+
+
+/* /Body */
