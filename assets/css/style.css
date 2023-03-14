@@ -1,0 +1,53 @@
+/* DEBUG */
+.debug {
+  background-color: #c60b0b46;
+  border: 1px solid black;
+  min-height: 70px;
+}
+/* /DEBUG */
+
+/* GENERAL */
+
+:root {
+  --bs-blue: #3E76D2 ;
+  --bs-cyan: #1A72E8;
+  --bs-red: #DC3545;
+  --bs-yellow: #ffc109;
+  --bs-orange: #F26551;
+  --bs-grey: #E5E5E5;
+  --bs-green: #1A8754;
+}
+
+/* /GENERAL */
+
+/* header */
+header{
+  background-color: #F8F9FA;
+  min-height: 80px;
+}
+ .col-8 form input,
+ .col-8 form button {
+background-color: var(--bs-grey) ;
+}
+
+input::placeholder{
+  font-size: 13px
+}
+
+.fa-bell {
+  color: #ffc109;
+}
+.pm-logo-mobile
+{
+ height: 50px;  
+ left: 0;
+
+}
+.navbar-collapse {
+  width: fit-content;
+}
+.pm-logo {
+ height: 30px;
+
+}
+/* /header *
