@@ -67,29 +67,34 @@ input::placeholder{
 /* Body */
 
 .pm-side-menu{
-  min-width: 150px;
+  width: 150px;
 }
 
 .pm-side-small-menu {
-  min-width: 70px;
+  width: 70px;
 }
 .pm-side-menu,
 .pm-side-small-menu
 {
-  height: calc(100vh - 80px);
-  
+  height: calc(100vh - 90px);
   background-image: url(../img/sidebar-bg.png);
   background-color: #041E34;
+  bottom: 0;
 }
 
 .pm-side-top {
-  height: 95% ;
+  height: calc(100% - 50px);
 }
 
-
+.offcanvas {
+  --bs-offcanvas-width: 700px;
+}
 
 /* main */
-
+main {
+  padding-top: 80px;
+  margin-left: 150px;
+}
 .pm-tags,
 .pm-plus {
   font-size: 10px;
@@ -116,3 +121,9 @@ input::placeholder{
 
 
 /* /Body */
+
+@media screen and (max-width: 960px ){
+  main {
+    margin-left: 70px;
+  }
+}
