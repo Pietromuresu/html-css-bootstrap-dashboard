@@ -65,7 +65,7 @@ input::placeholder{
 
 
 /* Body */
-
+/* side */
 .pm-side-menu{
   width: 150px;
 }
@@ -90,11 +90,18 @@ input::placeholder{
   --bs-offcanvas-width: 700px;
 }
 
+.pm-side-menu ul li:hover,
+.pm-side-bottom a:hover {
+  background-color: #204b6f;
+}
+/* /side */
 /* main */
 main {
   padding-top: 80px;
   margin-left: 150px;
 }
+
+/* tob bar blue */
 .pm-tags,
 .pm-plus {
   font-size: 10px;
@@ -110,12 +117,16 @@ main {
   
 }
 
+
+
 .fa-angles-right {
   font-size: 13px;
 }
+/* /tob bar blue */
 
 .pm-next-classes div,
-.pm-faq div:first-child{
+.pm-faq>div:first-child,
+.pm-todo>div:first-child{
  background-color: #F7F7F7;
 }
 
@@ -155,6 +166,25 @@ tr td:first-child {
 }
 
 
+.pm-graph img {
+width: 100%;
+}
+
+.pm-utenti-attivi p{
+  font-size: 13px;
+}
+
+.pm-user-monthly {
+  line-height: 30px;
+  font-size: 13px;
+}
+
+.pm-link-report {
+  color: #1A72E8;
+  text-decoration: underline;
+  line-height: 40px;
+  font-size: 13px;
+}
 /* /main */
 
 
@@ -167,6 +197,9 @@ tr td:first-child {
 
   tr td:first-child {
     width: 40%;
+  }
+  .offcanvas {
+    --bs-offcanvas-width: 100%;
   }
 }
 

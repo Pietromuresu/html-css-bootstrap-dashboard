@@ -120,8 +120,8 @@
         
       </div>
 
-      <div class="d-flex ps-4 align-items-center pm-side-bottom ">
-        <a href="#" >
+      <div class="d-flex px-4 align-items-center pm-side-bottom ">
+        <a class="w-100" href="#" >
           <i class="fa-solid fa-gear"></i>
           Admin
         </a>
@@ -299,8 +299,11 @@
      <!-- /top blue bar -->
 
      <!-- elements  -->
-     <div class="row">
-        <div class="col col-md-12 col-lg-8 my-3 ">
+
+     <div class="row pe-3">
+        <div class="col col-md-12 col-lg-8 my-3  ">
+
+          <!-- table -->
           <div class="pm-next-classes border m-3 ms-4 rounded-2">
              <div class="border-bottom mb-3 ">
                 <p class="fs-4 ps-3 ">Prossime classi</p>
@@ -493,11 +496,15 @@
               </tbody>
             </table>
           </div>
+          <!-- /table -->
 
           <div class="pm-faq m-3 ms-4 ">
+
+          <!-- FAQ -->
+
             <div class="border rounded-top-2">
-                  <p class="fs-4 ps-3 ">F.A.Q.</p>
-                </div>
+              <p class="fs-4 ps-3 ">F.A.Q.</p>
+            </div>
             <div class="container-fluid border rounded-bottom-2">
                 
               <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -540,24 +547,78 @@
                 </div>
               </div>
             </div>
-
-            
-            
-
+          <!-- /FAQ -->
 
 
           </div>
         </div>
-        <div class="col-md-4 debug">
-          <div class="pm-todo">
 
+
+        <div class="  col-lg-4 my-3  ">
+
+          <!-- To Do -->
+
+          <div class="pm-todo mt-3 ps-4 ">
+            <div class="border rounded-top-2">
+              <p class="fs-4 ps-3 ">Todo</p>
+            </div>
+            <div class="container-fluid p-3 border">
+
+              <div class=" border border-bottom-0 rounded-top-2 px-2 py-1">
+                <input type="checkbox" name="Todo" id="">
+                <span class="ms-2  ">
+                  Kickoff Nuove Classi
+                </span>
+              </div>
+              <div class=" border border-bottom-0 px-2 py-1">
+                <input type="checkbox" name="Todo" id="">
+                <span class="ms-2  ">
+                  Lezione su Bootstrap 5 in class #75
+                </span>
+              </div>
+              <div class=" border rounded-bottom-2 px-2 py-1">
+                <input type="checkbox" name="Todo" id="">
+                <span class="ms-2  ">
+                  Controllare username Github studenti 
+                </span>
+              </div>
+              
+            </div>
+          </div>
+          <!-- /To Do -->
+          <!-- Graph -->
+
+          <div class="pm-graph mt-3 ps-4">
+            <div class="container-fluid border rounded-2 p-3">
+              <div class="container-fluid border rounded-2 pm-graph">
+                <img src="assets/img/stats.jpeg" alt="">
+
+                <div class=" pm-utenti-attivi">
+                  <h6>Utenti attivi</h6>
+                  <p class="">Lista degli utenti attivi nell'ultimo mese</p>
+                  <div class=" pm-user-monthly border-top border-bottom">
+                    Gennaio: 1200
+                  </div>
+                  <div class="pm-user-monthly ">
+                    Febbraio: 800
+                  </div>
+                  <div class="pm-user-monthly border-top border-bottom">
+                    Marzo: 1500
+                  </div>
+                  
+                </div>
+                  <a class="pm-link-report " href="#">
+                    Visualizza report approfondito
+                  </a>
+              </div>
+            </div>
+            
           </div>
 
-          <div class="pm-graph">
+          <!-- /Graph -->
 
-          </div>
         </div>
-      å</div>
+      </div>
      
     </div>
    
