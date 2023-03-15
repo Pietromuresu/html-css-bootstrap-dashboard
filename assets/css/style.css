@@ -22,6 +22,8 @@
   color: white ;
   text-decoration: none;
 }
+
+
 /* /GENERAL */
 
 /* header */
@@ -54,17 +56,22 @@ input::placeholder{
  height: 30px;
 
 }
+
+.pm-container {
+  
+  background-color: #1A72E8;
+}
 /* /header */
 
 
 /* Body */
 
 .pm-side-menu{
-  width: 150px;
+  min-width: 150px;
 }
 
 .pm-side-small-menu {
-  width: 70px;
+  min-width: 70px;
 }
 .pm-side-menu,
 .pm-side-small-menu
@@ -79,6 +86,33 @@ input::placeholder{
   height: 95% ;
 }
 
+
+
+/* main */
+
+.pm-tags,
+.pm-plus {
+  font-size: 10px;
+  border-radius: 20px;
+  background-color: #041e346e;
+  color: white;
+  padding: 3px 8px;
+}
+.pm-plus {
+  
+  border-radius: 50%;
+  padding: 6px 8px;
+  
+}
+
+.fa-angles-right {
+  font-size: 13px;
+}
+
+.pm-counter {
+
+}
+/* /main */
 
 
 /* /Body */

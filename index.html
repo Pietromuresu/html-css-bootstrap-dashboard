@@ -40,7 +40,7 @@
           
           <div class="col-1 col-md-2   ">
 
-            <ul class="list-unstyled  pt-3 d-flex d-none d-lg-inline-flex">
+            <ul class="list-unstyled   d-flex d-none d-lg-inline-flex">
               <li class="mx-2">
                 <a href="#" class="text-black">
                   <i class="fa-solid fa-list text-secondary"></i>
@@ -91,7 +91,7 @@
   </header>
 
 
-  <main>
+  <main class="d-flex">
     <!-- side  -->
     <div class="pm-side-menu d-none d-lg-block ">
       <div class="pm-side-top container-fluid p-4">
@@ -158,6 +158,63 @@
         </a>
       </div> 
       
+    </div>
+
+    <!-- Main  -->
+
+    <div class="w-100 ">
+     <div class="container-fluid d-flex align-items-center pm-container ">
+      <div class="row py-3 py-md-1 w-100 align-items-center">
+        <div class="col-md-3 order-md-1">
+          <div class="pm-new-student">
+            <span class="text-white ">
+              Nuovo studente
+            </span>
+            
+            <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            
+          </div>
+        </div>
+          </div>
+        </div> 
+        
+        <div class="col-4 col-lg-5  ">
+          
+          <span class="fs-4 text-white">Boolean</span>
+          <div class="pm-tags d-inline">Piano blaze</div>
+          <div class="row align-items-center ">
+            <div>
+              <ul class="list-unstyled mt-1 d-flex">
+                <li class="pm-tags " ><a href="#">3 app</a> </li>
+                <i class="fa-solid fa-angles-right mx-1 mt-2 mt-lg-1 text-white"></i>
+                <ul class="list-unstyled  d-flex d-none d-lg-inline-flex">
+                  <li class="pm-tags"><a href="#"> Boolean mobile app</a></li>
+                  <li class="pm-tags mx-1"><a href="#"> Boolean web app</a></li>
+                  <li class="pm-tags"><a href="#"> Boolean blog app</a></li>
+                </ul>
+                <li class="d-lg-none ">
+                  <i class="fa-solid fa-plus pm-plus"></i>  
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4  text-white">
+          <div class="pm-counter">
+            <p class="mb-0">Studenti online negli ultimi 30 minuti</p> 
+            <h2 >125</h2>
+          </div>
+        </div>
+        
+      </div>
+     </div>
     </div>
   </main>
 
