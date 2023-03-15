@@ -13,7 +13,7 @@
   --bs-cyan: #1A72E8;
   --bs-red: #DC3545;
   --bs-yellow: #ffc109;
-  --bs-orange: #F26551;
+  --bs-orange: #f26451dc;
   --bs-grey: #E5E5E5;
   --bs-green: #1A8754;
 }
@@ -76,7 +76,7 @@ input::placeholder{
 .pm-side-menu,
 .pm-side-small-menu
 {
-  height: calc(100vh - 90px);
+  height: calc(100vh - 80px);
   background-image: url(../img/sidebar-bg.png);
   background-color: #041E34;
   bottom: 0;
@@ -114,9 +114,47 @@ main {
   font-size: 13px;
 }
 
-.pm-counter {
-
+.pm-next-classes div,
+.pm-faq div:first-child{
+ background-color: #F7F7F7;
 }
+
+.pm-tag-class {
+  border-radius: 50%;
+  font-size: 15px;
+  padding:6px 2px;
+  margin-right: 10px;
+  background-color: var(--bs-orange) !important;
+}
+.pm-tag-stats {
+  padding: 3px 5px ;
+  border-radius: 7px;
+  color: white;
+  font-size: 10px;
+}
+
+.pm-done {
+  background-color: #1A8754;
+}
+
+.pm-process {
+  background-color: #ffc109;
+}
+
+.pm-failed {
+  background-color: #DC3545;
+}
+
+.pm-actions {
+padding: 0;
+}
+
+
+tr td:first-child {
+  width: 60%;
+}
+
+
 /* /main */
 
 
@@ -126,4 +164,17 @@ main {
   main {
     margin-left: 70px;
   }
+
+  tr td:first-child {
+    width: 40%;
+  }
 }
+
+@media screen and (min-width: 720px ){
+ 
+
+  tr td:first-child {
+    width: 50%;
+  }
+}
+
