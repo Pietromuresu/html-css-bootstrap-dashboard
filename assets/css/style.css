@@ -29,7 +29,7 @@
 /* header */
 header{
   background-color: #F8F9FA;
-  min-height: 80px;
+  height: 80px;
 }
  .col-8 form input,
  .col-8 form button {
@@ -98,6 +98,7 @@ input::placeholder{
 /* main */
 main {
   padding-top: 80px;
+  height: calc(100vh - 80px);
   margin-left: 150px;
 }
 
@@ -158,6 +159,10 @@ main {
 
 .pm-actions {
 padding: 0;
+}
+
+.fa-code {
+  color: white;
 }
 
 
